@@ -1,3 +1,7 @@
+h1{
+    padding: 0 .5em;
+}
+
 .contenedor-testimonio {
     max-width: 1170px;
     height: 368px;
@@ -34,4 +38,12 @@
 .detalles-testimonio{
     text-align: justify;
     font-size: 1.1rem;
+}
+
+@media (max-width: 800px){
+    .contenedor-testimonio{
+        flex-direction: column;
+        height: auto;
+        width: 350px;
+    }
 }
